@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>PicVault: Your Images, One Click Away. Store and Retrieve Them Easily!</title>
+     <link rel="stylesheet" href="ImageUpload.css">
+     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+     <div class="container">
+          <h2 class="subtitle">PicVault</h2>
+
+          <form class="FormAttributes" id="image-upload-form">
+
+               <div class="FBForm">
+                    <label for="Uimage" class="Lname">Upload Image:</label>
+                    <input type="file" class="field" id="Uimage" name="Uimage" accept="image/*" required>
+               </div>
+
+               <div class="Sbtn" id="SButton">
+                    <input class="Submitbtn" type="submit" value="Submit" id="IDSubmitbtn" >
+                    <button class="Showbtn" id="ShowImageBTN">Show Images</button>
+               </div>
+
+          </form>
+
+     </div>
+     <div class="ShowImgCont" id="ShowImageContainer" >
+          <h2 class="subtitle">PicVault - Uploaded Images</h2> 
+          <button class="CloseShowbtn" id="CLoseImageShowBTN">Close</button>
+     </div>
+     <script src="ImageUpload.js"></script>
+</body>
+
+</html>
